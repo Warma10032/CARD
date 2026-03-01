@@ -1,0 +1,82 @@
+{
+    "combination_1":[{
+            "llm_name": "gpt-4o-mini",
+            "role": "Project Manager",
+            "agent_name":"CodeWriting",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o-mini",
+            "role": "Expert",
+            "agent_name":"AdverarialAgent",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o-mini",
+            "role" : "Expert",
+            "agent_name":"AdverarialAgent",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o-mini",
+            "role" : "Test Analyst",
+            "agent_name":"CodeWriting",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o-mini",
+            "role" : "Bug Fixer",
+            "agent_name":"CodeWriting",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        }],
+    "combination_2":[{
+            "llm_name": "gpt-4o-mini",
+            "role": "Project Manager",
+            "agent_name":"CodeWriting",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o-mini",
+            "role": "Algorithm Designer",
+            "agent_name":"CodeWriting",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o-mini",
+            "role" : "Programming Expert",
+            "agent_name":"CodeWriting",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o-mini",
+            "role" : "Test Analyst",
+            "agent_name":"CodeWriting",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o-mini",
+            "role" : "Bug Fixer",
+            "agent_name":"CodeWriting",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        }]
+}

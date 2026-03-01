@@ -1,0 +1,37 @@
+{   
+    "model_group_1": [
+        {"llm_name": "gpt-4o-mini", "role": "Mathematician", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Critic", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Psychologist", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Historian", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Doctor", "external_tool_type": null, "external_tool": null, "external_source": null}
+    ],
+    "model_group_2": [
+        {"llm_name": "deepseek-V3", "role": "Mathematician", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "deepseek-V3", "role": "Critic", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "deepseek-V3", "role": "Psychologist", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "deepseek-V3", "role": "Historian", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "deepseek-V3", "role": "Doctor", "external_tool_type": null, "external_tool": null, "external_source": null}
+    ],
+    "model_group_3": [
+        {"llm_name": "llama-3-70B", "role": "Mathematician", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "llama-3-70B", "role": "Critic", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "llama-3-70B", "role": "Psychologist", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "llama-3-70B", "role": "Historian", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "llama-3-70B", "role": "Doctor", "external_tool_type": null, "external_tool": null, "external_source": null}
+    ],
+    "model_group_4": [
+        {"llm_name": "gpt-4o", "role": "Mathematician", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o", "role": "Critic", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o", "role": "Psychologist", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o", "role": "Historian", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o", "role": "Doctor", "external_tool_type": null, "external_tool": null, "external_source": null}
+    ],
+    "model_group_5": [
+        {"llm_name": "qwen-72B", "role": "Mathematician", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "qwen-72B", "role": "Critic", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "qwen-72B", "role": "Psychologist", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "qwen-72B", "role": "Historian", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "qwen-72B", "role": "Doctor", "external_tool_type": null, "external_tool": null, "external_source": null}
+    ]
+}

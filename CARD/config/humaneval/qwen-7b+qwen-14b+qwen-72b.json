@@ -1,0 +1,114 @@
+{
+    "combination_1": [
+      {
+        "llm_name": "qwen-14B",
+        "role": "Project Manager",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      },
+      {
+        "llm_name": "qwen-14B",
+        "role": "Algorithm Designer",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      },
+      {
+        "llm_name": "qwen-14B",
+        "role": "Programming Expert",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      },
+      {
+        "llm_name": "qwen-14B",
+        "role": "Test Analyst",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      },
+      {
+        "llm_name": "qwen-14B",
+        "role": "Bug Fixer",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      }
+    ],
+    "combination_2": [
+      {
+        "llm_name": "qwen-7B",
+        "role": "Project Manager",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      },
+      {
+        "llm_name": "qwen-7B",
+        "role": "Algorithm Designer",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      },
+      {
+        "llm_name": "qwen-7B",
+        "role": "Programming Expert",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      },
+      {
+        "llm_name": "qwen-7B",
+        "role": "Test Analyst",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      },
+      {
+        "llm_name": "qwen-7B",
+        "role": "Bug Fixer",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      }
+    ],
+    "combination_3": [
+      {
+        "llm_name": "qwen-72B",
+        "role": "Project Manager",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      },
+      {
+        "llm_name": "qwen-72B",
+        "role": "Algorithm Designer",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      },
+      {
+        "llm_name": "qwen-72B",
+        "role": "Programming Expert",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      },
+      {
+        "llm_name": "qwen-72B",
+        "role": "Test Analyst",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      },
+      {
+        "llm_name": "qwen-72B",
+        "role": "Bug Fixer",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      }
+    ]
+  }
+  

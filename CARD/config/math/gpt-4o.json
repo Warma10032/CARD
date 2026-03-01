@@ -1,0 +1,38 @@
+{
+    "combination_1":[{
+            "llm_name": "gpt-4o",
+            "role": "Math Solver",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o",
+            "role": "Mathematical Analyst",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o",
+            "role" : "Mathematical Analyst",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o",
+            "role" : "Programming Expert",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o",
+            "role" : "Inspector",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        }]
+}
+

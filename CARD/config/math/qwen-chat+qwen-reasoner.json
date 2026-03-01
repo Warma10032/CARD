@@ -1,0 +1,77 @@
+{
+    "combination_1": [
+      {
+        "llm_name": "qwen-7B",
+        "role": "Math Solver",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      },
+      {
+        "llm_name": "qwen-7B",
+        "role": "Mathematical Analyst",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      },
+      {
+        "llm_name": "qwen-7B",
+        "role": "Mathematical Analyst",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      },
+      {
+        "llm_name": "qwen-7B",
+        "role": "Programming Expert",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      },
+      {
+        "llm_name": "qwen-7B",
+        "role": "Inspector",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      }
+    ],
+    "combination_2": [
+      {
+        "llm_name": "qwen-7B-reasoner",
+        "role": "Math Solver",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      },
+      {
+        "llm_name": "qwen-7B-reasoner",
+        "role": "Mathematical Analyst",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      },
+      {
+        "llm_name": "qwen-7B-reasoner",
+        "role": "Mathematical Analyst",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      },
+      {
+        "llm_name": "qwen-7B-reasoner",
+        "role": "Programming Expert",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      },
+      {
+        "llm_name": "qwen-7B-reasoner",
+        "role": "Inspector",
+        "external_tool": "",
+        "external_tool_type": "",
+        "external_source": ""
+      }
+    ]
+  }
+  

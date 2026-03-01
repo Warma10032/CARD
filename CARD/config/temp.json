@@ -1,0 +1,37 @@
+{
+    "group_1": [
+        {"llm_name": "gpt-4o-mini", "role": "Knowlegable Expert", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Searcher", "external_tool_type": "Search", "external_tool": "Google", "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Critic", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Mathematician", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Psychologist", "external_tool_type": null, "external_tool": null, "external_source": null}
+    ],
+    "group_2": [
+        {"llm_name": "gpt-4o-mini", "role": "Knowlegable Expert", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Searcher", "external_tool_type": "Search", "external_tool": "DuckDuckGo", "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Critic", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Mathematician", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Psychologist", "external_tool_type": null, "external_tool": null, "external_source": null}
+    ],
+    "group_3": [
+        {"llm_name": "gpt-4o-mini", "role": "Knowlegable Expert", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Searcher", "external_tool_type": "Search", "external_tool": "Wiki", "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Critic", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Mathematician", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Psychologist", "external_tool_type": null, "external_tool": null, "external_source": null}
+    ],
+    "group_4": [
+        {"llm_name": "gpt-4o-mini", "role": "Knowlegable Expert", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Searcher", "external_tool_type": "Search", "external_tool": "Google", "external_source": "quora"},
+        {"llm_name": "gpt-4o-mini", "role": "Critic", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Mathematician", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Psychologist", "external_tool_type": null, "external_tool": null, "external_source": null}
+    ],
+    "group_5": [
+        {"llm_name": "gpt-4o-mini", "role": "Knowlegable Expert", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Searcher", "external_tool_type": "Search", "external_tool": "DuckDuckGo", "external_source": "reddit"},
+        {"llm_name": "gpt-4o-mini", "role": "Critic", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Mathematician", "external_tool_type": null, "external_tool": null, "external_source": null},
+        {"llm_name": "gpt-4o-mini", "role": "Psychologist", "external_tool_type": null, "external_tool": null, "external_source": null}
+    ]
+}

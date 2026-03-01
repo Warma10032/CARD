@@ -1,0 +1,38 @@
+{
+    "combination_1":[{
+            "llm_name": "qwen-72B",
+            "role": "Math Solver",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "qwen-72B",
+            "role": "Mathematical Analyst",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "qwen-72B",
+            "role" : "Mathematical Analyst",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "qwen-72B",
+            "role" : "Programming Expert",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "qwen-72B",
+            "role" : "Inspector",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        }]
+}
+

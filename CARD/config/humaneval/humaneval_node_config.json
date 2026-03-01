@@ -1,0 +1,178 @@
+{
+    "combination_1":[{
+            "llm_name": "gpt-3.5-turbo",
+            "role": "Project Manager",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-3.5-turbo",
+            "role": "Algorithm Designer",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-3.5-turbo",
+            "role" : "Programming Expert",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-3.5-turbo",
+            "role" : "Test Analyst",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-3.5-turbo",
+            "role" : "Bug Fixer",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        }],
+    "combination_2":[{
+            "llm_name": "gpt-4",
+            "role": "Project Manager",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4",
+            "role": "Algorithm Designer",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4",
+            "role" : "Programming Expert",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4",
+            "role" : "Test Analyst",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4",
+            "role" : "Bug Fixer",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        }],
+        "combination_3":[{
+            "llm_name": "gpt-4o-mini" ,
+            "role": "Project Manager",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o-mini",
+            "role": "Algorithm Designer",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name":"gpt-4o-mini",
+            "role" : "Programming Expert",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o-mini",
+            "role" : "Test Analyst",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o-mini",
+            "role" : "Bug Fixer",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        }],
+        "combination_4":[{
+            "llm_name": "gpt-4",
+            "role": "Project Manager",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4",
+            "role": "Algorithm Designer",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4",
+            "role" : "Programming Expert",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4",
+            "role" : "Test Analyst",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4",
+            "role" : "Bug Fixer",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        }],
+        "combination_5":[{
+            "llm_name": "gpt-4o",
+            "role": "Project Manager",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o",
+            "role": "Algorithm Designer",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o",
+            "role" : "Programming Expert",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o",
+            "role" : "Test Analyst",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o",
+            "role" : "Bug Fixer",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        }]
+}
+

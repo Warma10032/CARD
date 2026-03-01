@@ -1,0 +1,153 @@
+{
+    "combination_1":[{
+            "llm_name": "gpt-3.5-turbo",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-3.5-turbo",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-3.5-turbo",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-3.5-turbo",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-3.5-turbo",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        }],
+    "combination_2":[{
+            "llm_name": "gpt-4",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        }],
+        "combination_3":[{
+            "llm_name": "gpt-4o-mini" ,
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o-mini",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name":"gpt-4o-mini",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o-mini",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o-mini",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        }],
+        "combination_4":[{
+            "llm_name": "gpt-4",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        }],
+        "combination_5":[{
+            "llm_name": "gpt-4o",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        }]
+}
+

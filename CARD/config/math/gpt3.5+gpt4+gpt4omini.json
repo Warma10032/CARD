@@ -1,0 +1,108 @@
+{
+    "combination_1":[{
+            "llm_name": "gpt-3.5-turbo",
+            "role": "Math Solver",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-3.5-turbo",
+            "role": "Mathematical Analyst",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-3.5-turbo",
+            "role" : "Mathematical Analyst",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-3.5-turbo",
+            "role" : "Programming Expert",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-3.5-turbo",
+            "role" : "Inspector",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        }],
+    "combination_2":[{
+            "llm_name": "gpt-4",
+            "role": "Math Solver",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4",
+            "role": "Mathematical Analyst",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4",
+            "role" : "Mathematical Analyst",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4",
+            "role" : "Programming Expert",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4",
+            "role" : "Inspector",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        }],
+        "combination_3":[{
+            "llm_name": "gpt-4o-mini" ,
+            "role": "Math Solver",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o-mini",
+            "role": "Mathematical Analyst",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name":"gpt-4o-mini",
+            "role" : "Mathematical Analyst",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o-mini",
+            "role" : "Programming Expert",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        },
+        {
+            "llm_name": "gpt-4o-mini",
+            "role" : "Inspector",
+            "external_tool": "",
+            "external_tool_type": "",
+            "external_source": ""
+        }]
+}
+
