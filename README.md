@@ -31,25 +31,25 @@ CARD (Conditional Design of Multi-agent Topological Structures) is a novel frame
 ┌─────────────────────────────────────────────────────────────────┐
 │                         CARD Framework                          │
 ├─────────────────────────────────────────────────────────────────┤
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────────┐│
-│  │   Agents    │  │   Tools     │  │   Dynamic Information   ││
-│  │ - CodeWriter│  │ - Search    │  │ - LLM Profiles          ││
-│  │ - MathSolver│  │ - Executor  │  │ - Tool Capabilities     ││
-│  │ - Analyze   │  │ - RAG       │  │ - Knowledge Sources    ││
-│  └──────┬──────┘  └──────┬──────┘  └───────────┬─────────────┘│
-│         │                │                      │              │
-│         └────────────────┼──────────────────────┘              │
-│                          ▼                                     │
-│              ┌───────────────────────┐                         │
-│              │   Graph Neural Network │                         │
-│              │   (GCN + Feature Fusion)│                        │
-│              └───────────┬───────────┘                         │
-│                          ▼                                     │
-│              ┌───────────────────────┐                         │
-│              │   Dynamic Graph       │                         │
-│              │   - Spatial Edges    │                         │
-│              │   - Temporal Edges   │                         │
-│              └───────────────────────┘                         │
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────────┐  │
+│  │   Agents    │  │   Tools     │  │   Dynamic Information   │  │
+│  │ - CodeWriter│  │ - Search    │  │ - LLM Profiles          │  │
+│  │ - MathSolver│  │ - Executor  │  │ - Tool Capabilities     │  │
+│  │ - Analyze   │  │ - RAG       │  │ - Knowledge Sources     │  │
+│  └──────┬──────┘  └──────┬──────┘  └────────────┬────────────┘  │
+│         │                │                      │               │
+│         └────────────────┼──────────────────────┘               │
+│                          ▼                                      │
+│              ┌───────────────────────────┐                      │
+│              │   Graph Neural Network    │                      │
+│              │   (GCN + Feature Fusion)  │                      │
+│              └───────────┬───────────────┘                      │
+│                          ▼                                      │
+│              ┌───────────────────────┐                          │
+│              │   Dynamic Graph       │                          │
+│              │   - Spatial Edges     │                          │
+│              │   - Temporal Edges    │                          │
+│              └───────────────────────┘                          │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -68,98 +68,37 @@ cp template.env .env
 # Edit .env with your API keys
 ```
 
-## Quick Start
-
-```python
-from CARD.graph.graph import Graph
-
-# Create a graph with multiple agents
-graph = Graph(
-    domain="math",
-    llm_name="gpt-4",
-    agent_names=["MathSolver", "AnalyzeAgent"],
-    decision_method="FinalRefer",
-    optimized_spatial=True,
-    optimized_temporal=True,
-    num_agents=5
-)
-
-# Run the graph
-result = graph.run({"task": "Solve this math problem..."})
-```
-
-## Supported Agents
-
-| Agent                | Description                              |
-| -------------------- | ---------------------------------------- |
-| `CodeWriting`      | Generates and debugs code                |
-| `MathSolver`       | Solves mathematical problems             |
-| `AnalyzeAgent`     | Analyzes and provides insights           |
-| `FinalDecision`    | Makes final decisions from agent outputs |
-| `AdversarialAgent` | Tests robustness with adversarial inputs |
-
-## Supported Tools
-
-### Search Tools
-
-- Google Search
-- DuckDuckGo
-- Baidu
-- Wikipedia
-- arXiv
-
-### Code Execution
-
-- Python Executor
-- Code validation
-
-### Information Retrieval
-
-- RAG (Dense, Sparse, Hybrid modes)
-- Multiple knowledge sources (PDF, Web, Database)
-
 ## Experiments
 
 Run benchmarks on standard datasets:
 
-### MMLU (Massive Multitask Language Understanding)
+### MMLU
+
+#### Train
 
 ```bash
 python experiments/run_mmlu.py \
     --phase train \
-    --llm_name gpt-4o-mini \
+    --eval_group "cycle" \
     --mode FullConnected \
-    --num_iterations 10
+    --num_iterations 10 \
+    --agent_nums 5 \
+    --batch_size 8 \
+    --optimized_spatial
 ```
 
-### HumanEval (Code Generation)
+#### Eval
 
-```bash
-python experiments/run_humaneval.py \
-    --phase train \
-    --llm_name DeepSeek-V3 \
-    --mode FullConnected
 ```
-
-### GSM8K (Math Reasoning)
-
-```bash
-python experiments/run_gsm8k.py \
-    --phase train \
-    --llm_name gpt-4o-mini
+python experiments/run_mmlu.py \
+    --phase eval \
+    --eval_group "model_group_1" \
+    --mode FullConnected \
+    --num_iterations 10 \
+    --agent_nums 5 \
+    --batch_size 8 \
+    --optimized_spatial
 ```
-
-## Graph Modes
-
-CARD supports various graph topologies:
-
-- **DirectAnswer**: Single agent direct response
-- **FullConnected**: All agents connected to each other
-- **Chain**: Sequential agent pipeline
-- **Debate**: Agents discuss and vote
-- **Layered**: Hierarchical agent structure
-- **Star**: Central agent coordinates others
-- **Random**: Random connections (for comparison)
 
 ## Configuration
 
@@ -167,42 +106,12 @@ Configure agents and node layouts in JSON files:
 
 ```json
 {
-  "group_1": [
-    {"role": "Math Expert", "llm_name": "gpt-4"},
-    {"role": "Code Expert", "llm_name": "gpt-4"}
+  "model_group_1": [
+    {"role": "Math Expert", "llm_name": "gpt-4o"},
+    {"role": "Code Expert", "llm_name": "gpt-4o"}
   ]
 }
 ```
-
-## Key Components
-
-### Graph Module (`CARD/graph/`)
-
-- `graph.py`: Core graph structure with GNN integration
-- `node.py`: Individual agent nodes
-
-### Agents (`CARD/agents/`)
-
-- `agent_registry.py`: Agent registration system
-- Multiple specialized agents for different tasks
-
-### Tools (`CARD/tools/`)
-
-- `search/`: Web search integration
-- `coding/`: Code execution
-- `reader/`: Document parsing
-
-### Dynamic Information (`CARD/dynamic/`)
-
-- `llm_information.py`: LLM capability profiles
-- `search.py`: Search engine information
-- `rag.py`: RAG configuration details
-
-### LLM Integration (`CARD/llm/`)
-
-- `gpt_chat.py`: OpenAI API integration
-- `together_chat.py`: Together AI integration
-- `llm_registry.py`: Multi-LLM support
 
 ## Requirements
 
